@@ -1,0 +1,22 @@
+/********************************************************************
+* Aluno: MATHEUS ALVES GOMES           RA: 0028304                  *
+* Programa MAG-21 - Numero Positivo ou Negativo                    *
+********************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+    float numero;
+
+    scanf("%f", &numero);
+
+    if(numero > 0)
+        printf("Positivo\n");
+    else if(numero < 0)
+        printf("Negativo\n");
+    else
+        printf("Zero\n");
+
+    return 0;
+}
